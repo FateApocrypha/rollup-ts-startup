@@ -1,8 +1,9 @@
 {
-  "name": "rollup_startup",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "author": "{{author}}",
+  "main": "dist/{{name}}.js",
   "scripts": {
     "test_u": "jest -u",
     "test":"jest",
@@ -20,7 +21,6 @@
     "rollup",
     "typescript"
   ],
-  "author": "Fan Chao",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/FateApocrypha/rollup-ts-startup/issues"
